@@ -19,6 +19,16 @@ const CONTACT_INFO = {
 // All placeholder images replaced with your REAL uploaded work via external URLs
 const PORTFOLIO_ITEMS = [
   {
+    id: 13,
+    title: 'Gaming Concept Latest',
+    categories: ['Thumbnails', 'Gaming'],
+    type: 'Concept Design',
+    tags: ['Gaming', 'Action', 'Vibrant'],
+    desc: 'Latest gaming thumbnail concept with vibrant aesthetic and high visual impact.',
+    img: 'https://r2.fivemanage.com/xEFzDSAByL8rHQQf3E6G8/speracted/ChatGPTImageApr28202608_28_22AM.png',
+    featured: true
+  },
+  {
     id: 1,
     title: 'BGMI Live Stream',
     categories: ['Thumbnails', 'Gaming'],
@@ -567,7 +577,7 @@ export default function App() {
 
               <div className="relative overflow-hidden rounded-lg group">
                 <img
-                  src="https://r2.fivemanage.com/xEFzDSAByL8rHQQf3E6G8/speracted/ChatGPTImageApr24202610_28_27AM.png"
+                  src="https://r2.fivemanage.com/xEFzDSAByL8rHQQf3E6G8/speracted/ChatGPTImageApr28202608_28_22AM.png"
                   alt="Gaming Thumbnail Example"
                   className="w-full h-auto transform group-hover:scale-110 transition-transform duration-700 opacity-90 group-hover:opacity-100"
                   loading="lazy"
@@ -682,8 +692,8 @@ export default function App() {
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
                 className={`px-5 py-2 rounded-full text-xs font-bold uppercase tracking-wider transition-all ${activeCategory === cat
-                    ? 'bg-[#b026ff] text-white shadow-[0_0_15px_rgba(176,38,255,0.5)] border border-[#b026ff]'
-                    : 'bg-[#111] text-gray-400 border border-[#222] hover:border-[#00f3ff] hover:text-[#00f3ff]'
+                  ? 'bg-[#b026ff] text-white shadow-[0_0_15px_rgba(176,38,255,0.5)] border border-[#b026ff]'
+                  : 'bg-[#111] text-gray-400 border border-[#222] hover:border-[#00f3ff] hover:text-[#00f3ff]'
                   }`}
               >
                 {cat}
