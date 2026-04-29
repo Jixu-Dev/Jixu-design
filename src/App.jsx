@@ -159,6 +159,26 @@ const PORTFOLIO_ITEMS = [
     desc: 'Dark theme action-focused thumbnail concept.',
     img: 'https://r2.fivemanage.com/xEFzDSAByL8rHQQf3E6G8/speracted/Untitleddesign(5).png',
     featured: false
+  },
+  {
+    id: 14,
+    title: 'Gaming Concept 3',
+    categories: ['Thumbnails', 'Gaming'],
+    type: 'Concept Design',
+    tags: ['Gaming', 'Action', 'Vibrant'],
+    desc: 'Action-focused thumbnail concept.',
+    img: 'https://r2.fivemanage.com/xEFzDSAByL8rHQQf3E6G8/speracted/Untitleddesign(7).png',
+    featured: true
+  },
+  {
+    id: 15,
+    title: 'Gaming Concept 4',
+    categories: ['Thumbnails', 'Gaming'],
+    type: 'Concept Design',
+    tags: ['Gaming', 'Action', 'Vibrant'],
+    desc: 'Vibrant action-focused thumbnail concept.',
+    img: 'https://r2.fivemanage.com/xEFzDSAByL8rHQQf3E6G8/speracted/Untitleddesign(14).png',
+    featured: true
   }
 ];
 
