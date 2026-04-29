@@ -179,6 +179,16 @@ const PORTFOLIO_ITEMS = [
     desc: 'Vibrant action-focused thumbnail concept.',
     img: 'https://r2.fivemanage.com/xEFzDSAByL8rHQQf3E6G8/speracted/Untitleddesign(14).png',
     featured: true
+  },
+  {
+    id: 16,
+    title: 'Gaming Concept 5',
+    categories: ['Thumbnails', 'Gaming'],
+    type: 'Concept Design',
+    tags: ['Gaming', 'Action', 'Vibrant'],
+    desc: 'Newest featured action-focused thumbnail concept.',
+    img: 'https://r2.fivemanage.com/xEFzDSAByL8rHQQf3E6G8/speracted/ChatGPTImageApr29202608_15_57AM.png',
+    featured: true
   }
 ];
 
