@@ -189,6 +189,36 @@ const PORTFOLIO_ITEMS = [
     desc: 'Newest featured action-focused thumbnail concept.',
     img: 'https://r2.fivemanage.com/xEFzDSAByL8rHQQf3E6G8/speracted/ChatGPTImageApr29202608_15_57AM.png',
     featured: true
+  },
+  {
+    id: 17,
+    title: 'Gaming Concept 6',
+    categories: ['Thumbnails', 'Gaming'],
+    type: 'Concept Design',
+    tags: ['Gaming', 'Action', 'Vibrant'],
+    desc: 'Newest action-focused thumbnail concept.',
+    img: 'https://r2.fivemanage.com/xEFzDSAByL8rHQQf3E6G8/speracted/ChatGPTImageApr30202606_30_10PM.png',
+    featured: false
+  },
+  {
+    id: 18,
+    title: 'Valorant Concept',
+    categories: ['Thumbnails', 'Gaming'],
+    type: 'Concept Design',
+    tags: ['Valorant', 'Gaming', 'Vibrant'],
+    desc: 'Valorant thumbnail design.',
+    img: 'https://r2.fivemanage.com/xEFzDSAByL8rHQQf3E6G8/speracted/NYLAVALO.png',
+    featured: false
+  },
+  {
+    id: 19,
+    title: 'Profile Art',
+    categories: ['Thumbnails', 'Gaming'],
+    type: 'Branding',
+    tags: ['Profile', 'Clean', 'Simple'],
+    desc: 'Simple clean personal profile photo YouTube channel art.',
+    img: 'https://r2.fivemanage.com/xEFzDSAByL8rHQQf3E6G8/speracted/OrangeandGreySimpleCleanPersonalProfilePhotoYouTubeChannelArt.png',
+    featured: true
   }
 ];
 
